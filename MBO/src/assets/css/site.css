@@ -1,0 +1,159 @@
+/*tags*/
+
+body {
+  background-color: #efefef !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1 {
+  width: 100%;
+  font-size: 2em;
+}
+
+/*custom*/
+
+.form {
+  width: 100%;
+  background-color: #fff;
+  /* text-align: right; */
+}
+
+.form > .form-container {
+  padding: 50px;
+  text-align: right;
+}
+
+.form > .form-container h1 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .form > .form-container {
+    padding: 50px 20px;
+  }
+}
+
+.form .md-button.md-raised {
+  margin-right: 0;
+}
+
+.container {
+  padding: 50px 15px;
+  min-height: calc(100vh - 100px - 128px - 24px);
+}
+
+.footer {
+  padding: 60px;
+  background-color: #ccc;
+  border-top: 1px solid #bbb;
+}
+
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.min-height {
+  min-height: 260px;
+}
+
+/*Vue material customize*/
+
+.md-menu-content.md-direction-bottom-right.md-active {
+  width: 100%;
+}
+
+/*utilities*/
+
+.custom-label {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.flex-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-muted {
+  opacity: 0.6;
+}
+
+.md-chip {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  margin-right: 2px;
+}
+
+.theme-danger .md-icon {
+  color: #f44336;
+}
+
+.theme-warn .md-icon {
+  color: #ff5722;
+}
+
+.theme-normal .md-icon {
+  color: #ff9800;
+}
+
+.theme-primary .md-icon {
+  color: #cddc39;
+}
+
+.theme-success .md-icon {
+  color: #4caf50;
+}
+
+/*Toaster config*/
+
+.cxlt-toastr-container > div {
+  opacity: 1;
+  box-shadow: 0 3px 6px #000;
+}
+
+.md-whiteframe {
+  background-color: white;
+}
+
+.md-whiteframe.form {
+  padding: 25px;
+}
