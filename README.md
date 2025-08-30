@@ -1,4 +1,4 @@
-# SPA-asp.net-api-vuejs-
+# SPA-asp.net-api-vuejs
 ## Single Page Application using ASP .NET and vuejs.
 
 ### NOTE
